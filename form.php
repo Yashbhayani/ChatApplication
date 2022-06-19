@@ -188,21 +188,3 @@ if(!isset($_SESSION["Username"]) && !isset($_SESSION["user_id"]) && !isset($_SES
 
 </body>
 </html>
-<!-- 
-<div>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand">
-                    
-                <img src="img/image_placeholder.png" alt="Logo" style="width:40px;" class="rounded-pill">
-                </a>
-                <?php
-                // if(isset($_SESSION["Username"])){
-                //      echo "<a href='logout.php'>".$_SESSION["Username"]."Logout</a>";
-                //      }else{
-                //      echo "<a href='log.php'>LOGIN & REGISTER</a>";
-                //      }
-                ?>
-            </div>
-        </nav>
-    </div> -->
