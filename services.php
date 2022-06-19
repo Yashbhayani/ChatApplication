@@ -5,24 +5,6 @@ if(!isset($_SESSION["Username"]) && !isset($_SESSION["user_id"]) && !isset($_SES
     header('location:home.html');
 }
 ?>
-<!-- <?php
-        /* $id = $_REQUEST['id'];
-        include "connection.php";
-        if($id != ""){
-            $result = mysqli_query($con, "SELECT * FROM `registration_table` WHERE id='$id'");
-            $num = mysqli_num_rows($result);
-            while($row = mysqli_fetch_assoc($result)){
-                $first_Name = $row['first_Name'];
-                $last_Name = $row['last_Name'];
-                $image =  $row['image'];
-            }
-        }
-            
-        $ans = array("$first_Name", "$last_Name", "$image");
-        $myJSON = json_encode($ans);
-        echo $myJSON;*/
-?> -->
-
 <?php
     if(isset($_SESSION["user_id"])){
         include "connection.php";
